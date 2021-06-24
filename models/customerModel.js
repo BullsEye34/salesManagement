@@ -1,17 +1,13 @@
 const mongoose = require('mongoose');
 
-const agentSchema = mongoose.Schema({
-    email:{
-        type: String,
-        required: true,
-    },
-    password:{
-        type: String,
-        required: true
-    },
+const customerSchema = mongoose.Schema({
     name:{
         type: String,
         required: true,
+    },
+    company:{
+        type: String,
+        required: true
     },
     phone:{
         type:Number,
@@ -23,4 +19,4 @@ const agentSchema = mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('Agent', agentSchema);
+module.exports = mongoose.model('Customer', customerSchema);

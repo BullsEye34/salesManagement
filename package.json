@@ -1,0 +1,29 @@
+{
+  "name": "salesmanagement",
+  "version": "1.0.0",
+  "description": "Express JS App for managing Sales ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BullsEye34/salesManagement.git"
+  },
+  "keywords": [
+    "express",
+    "js",
+    "expressjs",
+    "node",
+    "nodejs",
+    "sale",
+    "sales",
+    "management"
+  ],
+  "author": "P Vamshi Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BullsEye34/salesManagement/issues"
+  },
+  "homepage": "https://github.com/BullsEye34/salesManagement#readme"
+}
